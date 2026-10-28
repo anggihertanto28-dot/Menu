@@ -1,32 +1,180 @@
-#
+
 <!DOCTYPE html>
-<div lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jagat Saji</title>
-    <link rel="stylesheet" href="stl.css">
+    <title>JagatSaji - Katalog Menu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-</div>
+<body>
 
-<!-- Navbar pembuka -->
-<nav>
-    <div class="wrapper"> <!-- pembuka wrapper pertama -->
-        <div class="logo">
-            <a href="">JagatSaji</a>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">JagatSaji</div>
+
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#menu">Menu</a>
+            <a href="#rekanan">Rekanan</a>
+            <a href="#kontak">Hubungi Kami</a>
+        </nav>
+
+        <div class="nav-kanan">
+            <span>⌕</span>
+            <span>♙</span>
+            <span>🛒</span>
+            <a href="#menu" class="btn-pesan">Pesan Disini</a>
         </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#online">Menu</a></li>
-                <li><a href="#offline">Rekanan</a></li>
-                <li><a href="#partner" style="margin-right: 100px;">Hubungi Kami</a></li>
-                <li><img src="Liwet.webp" style="width: 20px; height: auto; margin-right: 10px;"></li>
-                <li><img src="Nasi kuning.jpg" style="width: 20px; height: auto; margin-right: 10px;"></li>
-                <li><img src="Langi.jpg"style="width: 20px; height: auto; margin-right: 30px;"></li>
-                <li><a href="#" class="order">Pesan Disini</a></li>
-            </ul>
+    </header>
+
+    <!-- Hero / Beranda -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Sajian Masakan<br>Indonesia</h1>
+
+            <p>
+                Nikmati kelezatan resep warisan leluhur yang diolah dari
+                bumbu rempah pilihan. Dari Sabang sampai Merauke, kami
+                menghadirkan kebahagiaan melalui hidangan istimewa
+                yang kaya akan rasa.
+            </p>
+
+            <p>
+                Jelajahi Rasa Kuliner Nusantara dengan keaslian rempah,
+                kesegaran bahan, dan kehangatan tradisi dalam setiap sajian.
+                Pesan sekarang dan nikmati cita rasa masakan khas Indonesia!
+            </p>
+
+            <a href="#menu" class="btn-pesan">Pesan Sekarang</a>
         </div>
-    </div>
-</nav>
- Menu
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=80"
+                alt="Hidangan makanan Indonesia">
+        </div>
+    </section>
+
+    <!-- Katalog Menu -->
+    <section class="menu-section" id="menu">
+        <h2>Pilihan Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80"
+                     alt="Nasi Kuning">
+                <h3>Nasi Kuning</h3>
+                <p>
+                    Memiliki cita rasa yang gurih dengan warna kuning
+                    cerah, membuat hidangan ini disukai banyak orang.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80"
+                     alt="Gado-gado">
+                <h3>Gado-gado</h3>
+                <p>
+                    Salah satu makanan khas Indonesia yang terdiri
+                    dari aneka sayuran segar dengan saus kacang.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80"
+                     alt="Nasi Uduk">
+                <h3>Nasi Uduk</h3>
+                <p>
+                    Nasi yang dimasak dengan santan dan rempah
+                    sehingga memiliki aroma yang harum.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80"
+                     alt="Nasi Goreng">
+                <h3>Nasi Goreng</h3>
+                <p>
+                    Hidangan nasi yang digoreng dengan bumbu
+                    pilihan dan tambahan pelengkap.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80"
+                     alt="Nasi Daun Jeruk">
+                <h3>Nasi Daun Jeruk</h3>
+                <p>
+                    Nasi dengan aroma daun jeruk yang segar,
+                    cocok dinikmati bersama lauk pilihan.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=80"
+                     alt="Nasi Pecel">
+                <h3>Nasi Pecel</h3>
+                <p>
+                    Nasi dengan sayuran segar yang disiram
+                    bumbu kacang khas Jawa.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80"
+                     alt="Rujak Cingur">
+                <h3>Rujak Cingur</h3>
+                <p>
+                    Makanan khas Jawa Timur dengan sayuran,
+                    buah, dan bumbu petis yang khas.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=80"
+                     alt="Sate Ayam">
+                <h3>Sate Ayam</h3>
+                <p>
+                    Potongan daging ayam yang dibakar dan
+                    disajikan dengan bumbu kacang.
+                </p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80"
+                     alt="Soto Ayam">
+                <h3>Soto Ayam</h3>
+                <p>
+                    Sup ayam tradisional dengan kuah gurih
+                    dan rempah-rempah pilihan.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Location in Skaneda</p>
+            <p>WA: 0811122234</p>
+            <p>JagatSaji@gmail.com</p>
+        </div>
+
+        <div class="footer-column" id="rekanan">
+            <h3>JagatSaji</h3>
+            <p>Kuliner SMK Negeri 2 Mojokerto</p>
+            <p class="social">f &nbsp; ◎ &nbsp; ♥</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Opening Hours</h3>
+            <p>Everyday 10.00 Am - 18.00 Pm</p>
+        </div>
+    </footer>
+
+</body>
+</html>
